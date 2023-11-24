@@ -9,6 +9,8 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <!-- Animate On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Tailwind Library -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
 </head>
@@ -21,7 +23,7 @@
           <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
               <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="https://www.creative-tim.com/learning-lab/tailwindcss-starter-project#/presentation">
                 <!-- Nav Title -->
-                Creative Tim
+                Tanner's Example Template
               </a>
               <!-- Hamburger Menu (Mobile) -->
               <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
@@ -36,7 +38,7 @@
             <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               href="#pablo">
               <!-- Icon -->
-              <i class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "></i>
+              <i class="lg:text-gray-300 text-gray-500 fab fa-stack-overflow text-lg leading-lg "></i>
               <span class="lg:hidden inline-block ml-2">Share</span>
             </a>
           </li>
@@ -45,7 +47,7 @@
             <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               href="#pablo">
               <!-- Icon -->
-              <i class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "></i>
+              <i class="lg:text-gray-300 text-gray-500 fab fa-discord text-lg leading-lg "></i>
               <span class="lg:hidden inline-block ml-2">Tweet</span>
             </a>
           </li>
@@ -70,7 +72,7 @@
       <!-- Background Image -->
       <div
         class="absolute top-0 w-full h-full bg-center bg-cover"
-        style="">
+        style="background: url(https://images.unsplash.com/photo-1496096265110-f83ad7f96608?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
         <!-- Overlay -->
         <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
       </div>
@@ -79,10 +81,12 @@
         <div class="items-center flex flex-wrap">
           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <div class="pr-12">
-              <h1 class="text-white font-semibold text-5xl">
-                Welcome your epiphany.
+              <h1 class="text-white font-semibold text-5xl"
+              data-aos="fade-up">
+                Welcome to your future
               </h1>
-              <p class="mt-4 text-lg text-gray-300">
+              <p class="mt-4 text-lg text-gray-300" data-aos="fade-right"
+              data-aos-delay="1000">
                 Lorem ipsum dolor sit. Eum totam aspernatur aliquam praesentium aperiam magni, dignissimos, atque incidunt fuga nulla distinctio eligendi enim placeat nesciunt, soluta maxime nihil ipsa minus!
               </p>
             </div>
@@ -198,7 +202,7 @@
               <!-- Image -->
               <img
                 alt="..."
-                src=""
+                src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?q=80&w=2006&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 class="w-full align-middle rounded-t-lg"
               />
               <blockquote class="relative p-8 mb-4">
@@ -260,7 +264,7 @@
             <img
               alt="..."
               class="max-w-full rounded-lg shadow-lg"
-              src=""
+              src="https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
           </div>
           <!-- Text Box Container-->
@@ -337,9 +341,7 @@
           <div class="w-full lg:w-6/12 px-4">
             <h2 class="text-4xl font-semibold">Here are our heroes</h2>
             <p class="text-lg leading-relaxed m-4 text-gray-600">
-              According to the National Oceanic and Atmospheric
-              Administration, Ted, Scambos, NSIDClead scentist, puts the
-              potentially record maximum.
+              Meet our extraordinary team of dedicated individuals who are the true heroes behind our success, working tirelessly to make a positive impact every day.
             </p>
           </div>
         </div>
@@ -351,12 +353,12 @@
               <!-- Image -->
               <img
                 alt="..."
-                src=""               
+                src="https://randomuser.me/api/portraits/men/46.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Ryan Thompson</h5>
+                <h5 class="text-xl font-bold">Jeremy Hutchison</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   Web Developer
                 </p>
@@ -384,7 +386,7 @@
               <!-- Image -->
               <img
                 alt="..."
-                src=""
+                src="https://randomuser.me/api/portraits/women/47.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -413,7 +415,7 @@
               <!-- Image -->
               <img
                 alt="..."
-                src=""
+                src="https://randomuser.me/api/portraits/women/45.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
@@ -446,12 +448,12 @@
               <!-- Image -->
               <img
                 alt="..."
-                src=""
+                src="https://randomuser.me/api/portraits/women/27.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;"
               />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Jenna Kardi</h5>
+                <h5 class="text-xl font-bold">Courtney Wang</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   Founder and CEO
                 </p>
@@ -739,6 +741,16 @@
   </footer>
   <!-- End of Footer Section -->
 </body>
+<!-- AOS.js -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    delay: 200, // values from 0 to 3000, with step 50ms
+    duration: 1500, // values from 0 to 3000, with step 50ms
+    once: false, // whether animation should happen only once - while scrolling down
+    mirror: false, // whether elements should animate out while scrolling past them
+  });
+</script>
 <!-- Navigation Script -->
 <script>
   function toggleNavbar(collapseID) {
